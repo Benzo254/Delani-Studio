@@ -31,9 +31,6 @@
   text-transform: uppercase;
   padding-top: 2%;
 }
-#what-we-do {
-  text-align: center;
-}
-#what-we-do h2{
+#what-we-do>h2{
   text-transform: uppercase;
 }
