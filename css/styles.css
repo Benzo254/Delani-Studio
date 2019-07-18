@@ -1,0 +1,7 @@
+#landing-page{
+  background-image: url(../images/backgrounds/h_img.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 600px;
+  width: 100%;
+}
