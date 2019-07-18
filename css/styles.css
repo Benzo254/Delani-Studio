@@ -34,3 +34,6 @@
 #what-we-do {
   text-align: center;
 }
+#what-we-do h2{
+  text-transform: uppercase;
+}
