@@ -34,10 +34,9 @@
 #what-we-do>h2{
   text-transform: uppercase;
   margin-top: 2%;
-  /* margin-right: 10%; */
 }
-/* #portfolio{
-  height: 300px;
-  /* margin-left: 3%; */
-  margin-right: 3%;
-} */
+#contacts{
+  background-image: url(../images/backgrounds/c_image.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
