@@ -13,3 +13,6 @@
 #about{
   text-align: center;
 }
+#about>h2{
+  text-transform: uppercase;
+}
