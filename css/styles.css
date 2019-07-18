@@ -17,10 +17,15 @@
   text-transform: uppercase;
 }
 #services{
-  height: 300px;
+  height: 200px;
+  width: 100%;
   text-align: center;
   background-image: url(../images/backgrounds/s_image.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   color: whitesmoke;
+}
+#services h2{
+  text-transform: uppercase;
+  padding-top: 2%;
 }
