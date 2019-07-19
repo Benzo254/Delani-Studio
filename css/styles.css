@@ -39,4 +39,11 @@
   background-image: url(../images/backgrounds/c_image.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+  color: whitesmoke;
+}
+.bgTransparent{
+  background-color: transparent;
+}
+input::placeholder, textarea::placeholder{
+  color: white;
 }
