@@ -138,17 +138,17 @@
   </div>
   <div class=" container-fluid text-center" id="contacts">
     <h2>CONTACT US</h2>
-    <div class="form-group forms">
+    <form class="form-group forms" id="forms" method="POST">
       <div class="row">
-        <input type="text" class="bgTransparent col" placeholder="Name..">
-        <input type="email" class="bgTransparent col" placeholder="Email..">
+        <input type="text"  id="name" class="bgTransparent col" placeholder="Name..">
+        <input type="email" id="email" class="bgTransparent col" placeholder="Email..">
       </div>
 
       <textarea id="textarea" class="bgTransparent" placeholder="Your message here.." rows="8"></textarea>
       <div>
-        <button type="submit" class="btn btn-success" value="reset"> submit</button>
+        <input type="submit" class="btn btn-secondary">
       </div>
-    </div>
+    </form>
 
   </div>
   <div class="text-center pb-4 pt-4" id="social-icon">
