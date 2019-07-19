@@ -7,8 +7,11 @@
   color: whitesmoke;
   text-align: center;
 }
-#landing-page img{
+#landing-page>img{
   margin-top: 15%;
+}
+.mouse_click img{
+  box-shadow: 0 0 10px black;
 }
 #about{
   text-align: center;
