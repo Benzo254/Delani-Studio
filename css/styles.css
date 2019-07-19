@@ -78,3 +78,16 @@ span{
   text-align: center;
   display: none;
 }
+/* portfolio */
+.image-frame {
+  position: relative;
+}
+.image-caption {
+  display: none;
+  position: absolute;
+  bottom: 0px;
+  background:gray;
+  opacity: 0.2;
+  width: 90%;
+  height: 100%;
+}
