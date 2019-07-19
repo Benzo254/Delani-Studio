@@ -68,6 +68,9 @@ input::placeholder, textarea::placeholder{
   margin:0 5px 20px 5px;
   border-radius: 5px;
 }
+textarea{
+  width: 100%;
+}
 .social-icons{
   padding: 0 5px 0 5px;
 }
