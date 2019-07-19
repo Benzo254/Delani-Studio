@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>Delani Studio</title>
   <link  rel ="stylesheet" type="text/css" href="css/styles.css">
-  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
 </head>
 <body>
     <div id="landing-page">
@@ -45,46 +45,42 @@
       </figure> 
         </div>
       </div>
-    <div class="container text-center" id="portfolio">
+    <div class="container-fluid text-center pb-4">
       <h2>PORTFOLIO</h2>
-      <div class="row pb-4">
-        <div class="col-md-3">
-          <img src="images/portfolio/work4.jpg">
-        </div>
-        <div class="col-md-3">
-          <img src="images/portfolio/work3.jpg">
-        </div>
-        <div class="col-md-3">
-          <img src="images/portfolio/work2.jpg">
-        </div>
-        <div class="col-md-3">
-          <img src="images/portfolio/work1.jpg">
-        </div>
+      <div class="col-md-12">
+        <div class="row pb-4">
+          <div class="col-md-2"></div>
+          <img src="images/portfolio/work4.jpg" class="col-md-2">
+          <img src="images/portfolio/work3.jpg" class="col-md-2">
+          <img src="images/portfolio/work2.jpg" class="col-md-2">
+          <img src="images/portfolio/work1.jpg" class="col-md-2">
+            <div class="col-md-2"></div>
       </div>
       <div class="row">
-        <div class="col-md-3">
-          <img src="images/portfolio/work5.jpg">
-        </div>
-        <div class="col-md-3">
-            <img src="images/portfolio/work6.jpg">
-        </div>
-        <div class="col-md-3">
-            <img src="images/portfolio/work7.jpg">
-        </div>
-        <div class="col-md-3">
-            <img src="images/portfolio/work8.jpg">
-        </div>
+        <div class="col-md-2"></div>
+          <img src="images/portfolio/work5.jpg" class="col-md-2">
+          <img src="images/portfolio/work6.jpg" class="col-md-2">
+          <img src="images/portfolio/work7.jpg" class="col-md-2">
+          <img src="images/portfolio/work8.jpg" class="col-md-2">
+          <div class="col-md-2"></div>
       </div>
+      </div>
+      
     </div>
     <div  class="text-center" id="contacts">
       <h2 class="pt-4">CONTACT US</h2>
-      <form>
-        <div class="pb-2">
-          <input type="text"  class="bgTransparent" placeholder="Name..">
-          <input type="email" class="bgTransparent" placeholder="Email..">
+      <div class="form-group forms">
+          <div class="row">
+            <input type="text"  class="bgTransparent col" placeholder="Name.." >
+            <input type="email" class="bgTransparent col" placeholder="Email..">
+          </div>
+          
+        <textarea id="textarea" class="bgTransparent" placeholder="Your message here.." rows="8" cols="80"></textarea> 
+        <div>
+          <button type="submit" id="button-color" class="btn" value="reset"> submit</button>
         </div>
-        <textarea id="textarea" class="bgTransparent" placeholder="Your message here.."></textarea> 
-      </form>
+      </div>
+      
     </div>
 </body>
 </html>

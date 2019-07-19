@@ -40,10 +40,29 @@
   background-repeat: no-repeat;
   background-size: cover;
   color: whitesmoke;
+  padding: 20px;
+  width: 100%;
+}
+#contacts h2{
+  margin: 30px auto;
+}
+.forms{
+  width:60%;
+  margin: auto;
+  margin-bottom: 100px;
 }
 .bgTransparent{
   background-color: transparent;
+  background:transparent;
+  outline: none;
+  background-color: transparent;
+  color: white !important;
+  font-weight: 500;
 }
 input::placeholder, textarea::placeholder{
   color: white;
+}
+.col{
+  margin:0 5px 20px 5px;
+  border-radius: 5px;
 }
