@@ -19,7 +19,6 @@
   text-transform: uppercase;
 }
 #services{
-  height: 200px;
   width: 100%;
   text-align: center;
   background-image: url(../images/backgrounds/s_image.jpg);
@@ -29,7 +28,10 @@
 }
 #services h2{
   text-transform: uppercase;
-  padding-top: 2%;
+  padding-top: 5%;
+}
+.overlay{
+  background-color: rgba(0, 0, 0, 0.7);
 }
 #what-we-do>h2{
   text-transform: uppercase;
@@ -71,4 +73,8 @@ input::placeholder, textarea::placeholder{
 }
 span{
   font-size: 15px;
+}
+#design-hide, #dev-hide, #prod-hide{
+  text-align: center;
+  display: none;
 }
