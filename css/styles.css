@@ -69,3 +69,6 @@ input::placeholder, textarea::placeholder{
 .social-icons{
   padding: 0 5px 0 5px;
 }
+span{
+  font-size: 15px;
+}
