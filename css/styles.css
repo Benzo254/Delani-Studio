@@ -87,7 +87,11 @@ span{
   position: absolute;
   bottom: 0px;
   background:gray;
-  opacity: 0.2;
+  opacity: 0.4;
   width: 90%;
   height: 100%;
+}
+.image-caption p{
+  font-weight: bolder;
+  padding-top: 40%;
 }
