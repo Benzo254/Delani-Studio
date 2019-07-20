@@ -19,8 +19,14 @@ $('.image-frame').hover(function(){
   });
 
   $("form").submit(function(){
+    var name = document.getElementById('name').value;
+    var email = document.getElementById('email').value;
+    var message = document.getElementById('textarea').value;
+    if (name !=="" && email !=="" && message !==""){
+      alert("Thank you" + " "+ name + " "+ "we have received your message. Thank you for reaching out to us. ");
+    }
     event.preventDefault();
-    alert("Thank you" + " " + document.getElementById('name').value);
+    
   });
 });
 
