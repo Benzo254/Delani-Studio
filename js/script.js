@@ -24,6 +24,8 @@ $('.image-frame').hover(function(){
     var message = document.getElementById('textarea').value;
     if (name !=="" && email !=="" && message !==""){
       alert("Thank you" + " "+ name + " "+ "we have received your message. Thank you for reaching out to us. ");
+    }else{
+      alert("Insert your name, email and message");
     }
     event.preventDefault();
     
