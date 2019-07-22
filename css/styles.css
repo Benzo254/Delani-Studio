@@ -2,16 +2,29 @@
   background-image: url(../images/backgrounds/h_img.jpg);
   background-size: cover;
   background-repeat: no-repeat;
-  height: 600px;
+  height: 650px;
   width: 100%;
   color: whitesmoke;
   text-align: center;
 }
-#landing-page>img{
+#logo{
   margin-top: 15%;
 }
-.mouse_click img{
-  box-shadow: 0 0 10px black;
+#bounce {
+  animation: bounce 3s infinite;
+  margin-top: 8%;
+}
+
+@keyframes bounce {
+  0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+  }
+  40% {
+      transform: translateY(-40px);
+  }
+  60% {
+      transform: translateY(-45px);
+  }
 }
 #about{
   text-align: center;
