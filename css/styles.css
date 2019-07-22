@@ -1,3 +1,6 @@
+*{
+  font-family: 'Overpass', sans-serif;
+}
 #landing-page{
   background-image: url(../images/backgrounds/h_img.jpg);
   background-size: cover;
