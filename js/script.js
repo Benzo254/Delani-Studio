@@ -9,7 +9,6 @@ $("#dev,#dev-hide").click(function(){
 
   $("#prod,#prod-hide").click(function(){
     $("#prod, #prod-hide").toggle();
-    prod
 });
 
 $('.image-frame').hover(function(){
@@ -29,6 +28,6 @@ $('.image-frame').hover(function(){
     }
     event.preventDefault();
     
-  });
+    });
 });
 
