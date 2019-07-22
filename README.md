@@ -13,9 +13,9 @@ This is a project that details what Delani Studio does and their works. Addition
 ## Link to live website
 < https://daisyarusey.github.io/Delani-Studio/>
 ## Technologies used
-*HTML
-*CSS
-*JQuery
+* HTML
+* CSS
+* JQuery
 ## Contacts
 Email: <daisyarusey.dc@gmail.com>
 
