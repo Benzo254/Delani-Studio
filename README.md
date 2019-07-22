@@ -11,7 +11,7 @@ This is a project that details what Delani Studio does and their works. Addition
 * Lauch it in your browser
 
 ## Link to live website
-< https://github.com.io/daisyarusey/Delani-Studio>
+< https://daisyarusey.github.io/Delani-Studio/>
 ## Technologies used
 *HTML
 *CSS
